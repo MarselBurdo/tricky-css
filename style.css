@@ -1,0 +1,64 @@
+/* .parallax {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrpRmmJPDrxwRGYzkclA7AHaE8%26pid%3DApi&f=1');
+    min-height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallaxContent {
+    font-size: 30px;
+    background-color: rgba(12,12,12,0.12);
+    height: 600px;
+} */
+
+/* .animation {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.animationContent {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    position: relative;
+    border-radius: 50%;
+    background-color: coral;
+    animation-name: fireball;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 12;
+
+}
+
+@keyframes fireball {
+    0% { opacity: 0.9;top:0px;right: 0px;}
+    25% { opacity: 0.9;top:80px;right: 90px;}
+    50% { opacity: 0.9;top:80px;right: 0px;}
+    75% { opacity: 0.9;top:0px;right: 90px;}
+    100% { opacity: 0.9;top:0px;right: 0px;}
+} */
+
+/* .cycle img {
+    clip-path: circle(10%);
+}
+
+.polygon img {
+    clip-path: ellipse(100px 200px at 200px 200px);
+}
+
+.ellipse img {
+    clip-path: polygon(43% 40%, 42% 30%,41% 398%,500% 70%);
+} */
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+img:hover {
+ /* width: 400px; */
+ transform: scale(1.4) rotate(45deg)
+}
