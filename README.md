@@ -15,3 +15,11 @@ https://reactgo.com/react-app-css-modules/
 ### CSS_in_JS
 
 https://styled-components.com/
+
+### Tuple TS
+
+https://www.tutorialsteacher.com/typescript/typescript-tuple
+
+### Patterns
+
+https://habr.com/ru/company/itelma/blog/546372/
