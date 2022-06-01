@@ -23,3 +23,7 @@ https://www.tutorialsteacher.com/typescript/typescript-tuple
 ### Patterns
 
 https://habr.com/ru/company/itelma/blog/546372/
+
+### TS Rus
+
+https://typescript-handbook.ru/
