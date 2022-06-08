@@ -1,66 +1,66 @@
 /* .parallax {
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrpRmmJPDrxwRGYzkclA7AHaE8%26pid%3DApi&f=1');  
-    min-height: 800px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrpRmmJPDrxwRGYzkclA7AHaE8%26pid%3DApi&f=1'); 
+    min-width: 400px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .parallaxContent {
-    background-color: red;
-    font-size: 50px;
+    font-weight: larger;
+    font-size: 32px;
     height: 500px;
-} 
-*/
+    
+} */
 
 /* .animation {
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .animationContent {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
     opacity: 1;
     position: relative;
-    border-radius: 100%;
-    background-color: coral;
-    animation-name: ball;
-    animation-duration: 5s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 7;
 }
 
-
-@keyframes ball {
+@keyframes slide {
     0% { opacity: 0.9;top:0px;right: 0px;}
     25% { opacity: 0.9;top:80px;right: 90px;}
     50% { opacity: 0.4;top:80px;right: 0px;}
     75% { opacity: 0.1;top:0px;right: 90px;}
-    100% { opacity: 0.0;top:0px;right: 0px;}
+    100% { opacity: 0.05;top:0px;right: 0px;}
 } */
 
 /* .cycle img {
-    clip-path: circle(40%);
+    clip-path: circle(30%);
 }
 
 .ellipse img {
-    clip-path: ellipse(150px 170px at 200px 210px);
+    clip-path: ellipse(10px 80px at 70px 200px);
 }
 
 .polygon img {
-    clip-path: polygon(200px 40px, 40px 600px,300px 80px );
+    clip-path: polygon(50% 0, 30% 0, 100% 10%, 20% 20%,50% 0);
 } */
-
 
 .content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 img:hover {
-    transform: scale(1.6) rotate(45deg);
+    transform: scale(1.5) rotate(90deg);
 }

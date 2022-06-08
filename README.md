@@ -23,6 +23,7 @@ https://www.tutorialsteacher.com/typescript/typescript-tuple
 ### Patterns
 
 https://habr.com/ru/company/itelma/blog/546372/
+https://refactoring.guru/ru/design-patterns/catalog
 
 ### TS Rus
 
