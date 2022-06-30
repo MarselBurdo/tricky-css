@@ -1,41 +1,40 @@
 /* .parallax {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrpRmmJPDrxwRGYzkclA7AHaE8%26pid%3DApi&f=1'); 
-    min-width: 400px;
-    min-height: 300px;
+    width: 100%;
+    min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .parallaxContent {
-    font-weight: larger;
-    font-size: 32px;
-    height: 500px;
-    
+    font-weight: bold;
+    min-width: 400px;
+    min-height: 500px;
+    background-color: rgb(19, 222, 70);
 } */
 
-/* .animation {
-display: flex;
-justify-content: center;
-align-items: center;
 
+/* .animation {
+ display: flex;
+ justify-content: center;
+ align-items: center
 }
 
 .animationContent {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    border-radius: 50%;
-    animation-name: slide;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-iteration-count: 5;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation-name: cycle;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
     opacity: 1;
-    position: relative;
+    position: absolute;
+    animation-iteration-count: 10;
 }
 
-@keyframes slide {
+@keyframes cycle {
     0% { opacity: 0.9;top:0px;right: 0px;}
     25% { opacity: 0.9;top:80px;right: 90px;}
     50% { opacity: 0.4;top:80px;right: 0px;}
@@ -43,24 +42,25 @@ align-items: center;
     100% { opacity: 0.05;top:0px;right: 0px;}
 } */
 
-/* .cycle img {
-    clip-path: circle(30%);
+/* .cycle {
+    clip-path: circle(40%);
 }
 
-.ellipse img {
-    clip-path: ellipse(10px 80px at 70px 200px);
+.polygon {
+    clip-path:polygon(80% 0, 100% 50%, 50% 800%, 0 50%)
 }
 
-.polygon img {
-    clip-path: polygon(50% 0, 30% 0, 100% 10%, 20% 20%,50% 0);
+.ellipse {
+    clip-path: ellipse(130px 140px at 10% 20%);
 } */
 
-.content {
+
+.content  {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-img:hover {
-    transform: scale(1.5) rotate(90deg);
+.content img:hover {
+    transform: rotate(15deg) scale(2.3) translate(40px);
 }

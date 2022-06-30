@@ -28,3 +28,7 @@ https://refactoring.guru/ru/design-patterns/catalog
 ### TS Rus
 
 https://typescript-handbook.ru/
+
+### REM vs EM
+
+https://zellwk.com/blog/rem-vs-em/
