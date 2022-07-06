@@ -1,37 +1,36 @@
-/* .parallax {
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrpRmmJPDrxwRGYzkclA7AHaE8%26pid%3DApi&f=1'); 
-    width: 100%;
-    min-height: 400px;
+/* .parallaxContent {
+ background-color: pink;
+ height: 30vh;
+}
+
+.parallax {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrpRmmJPDrxwRGYzkclA7AHaE8%26pid%3DApi&f=1');
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-.parallaxContent {
-    font-weight: bold;
-    min-width: 400px;
-    min-height: 500px;
-    background-color: rgb(19, 222, 70);
 } */
 
 
 /* .animation {
- display: flex;
- justify-content: center;
- align-items: center
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .animationContent {
-    width: 400px;
-    height: 400px;
-    background-color: red;
+    width: 800px;
+    height: 800px;
+    background-color: green;
+    border-radius: 40%;
     animation-name: cycle;
     animation-delay: 0.5s;
-    animation-duration: 2s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
     opacity: 1;
     position: absolute;
-    animation-iteration-count: 10;
 }
 
 @keyframes cycle {
@@ -40,27 +39,26 @@
     50% { opacity: 0.4;top:80px;right: 0px;}
     75% { opacity: 0.1;top:0px;right: 90px;}
     100% { opacity: 0.05;top:0px;right: 0px;}
+
 } */
 
 /* .cycle {
     clip-path: circle(40%);
 }
-
 .polygon {
     clip-path:polygon(80% 0, 100% 50%, 50% 800%, 0 50%)
 }
-
 .ellipse {
     clip-path: ellipse(130px 140px at 10% 20%);
 } */
 
-
-.content  {
+.content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+justify-content: center;
+align-items: center;
+
 }
 
 .content img:hover {
-    transform: rotate(15deg) scale(2.3) translate(40px);
+    transform: translate(-50%, -50%) scale(2.4) rotate(45deg);
 }
